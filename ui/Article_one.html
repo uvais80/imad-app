@@ -5,6 +5,11 @@
     <div>
         One page
     </div>
+    
+   app.get('/', function (req, res)
+   {
+   res.sendFile(path.join(__dirname, 'ui', 'Article_one.html'));
+    });
     <h1>
         Professional Experience
     </h1>
